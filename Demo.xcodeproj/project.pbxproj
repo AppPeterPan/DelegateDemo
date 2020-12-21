@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		A6095F062590418B00B46AAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6095F052590418B00B46AAE /* AppDelegate.swift */; };
 		A6095F082590418B00B46AAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6095F072590418B00B46AAE /* SceneDelegate.swift */; };
-		A6095F0A2590418B00B46AAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6095F092590418B00B46AAE /* ViewController.swift */; };
 		A6095F0D2590418B00B46AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6095F0B2590418B00B46AAE /* Main.storyboard */; };
 		A6095F0F2590418C00B46AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6095F0E2590418C00B46AAE /* Assets.xcassets */; };
 		A6095F122590418C00B46AAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6095F102590418C00B46AAE /* LaunchScreen.storyboard */; };
+		A6095F222590457A00B46AAE /* SelectAnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6095F212590457900B46AAE /* SelectAnimalViewController.swift */; };
+		A6095F2525904A3300B46AAE /* FavoriteAnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6095F2425904A3300B46AAE /* FavoriteAnimalViewController.swift */; };
+		A6095F2A25904BF400B46AAE /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6095F2925904BF400B46AAE /* Animal.swift */; };
+		A685180B2590824E001BB8CC /* PsychologicalTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A685180A2590824E001BB8CC /* PsychologicalTestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A6095F022590418B00B46AAE /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6095F052590418B00B46AAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6095F072590418B00B46AAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A6095F092590418B00B46AAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A6095F0C2590418B00B46AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6095F0E2590418C00B46AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6095F112590418C00B46AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6095F132590418C00B46AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6095F212590457900B46AAE /* SelectAnimalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAnimalViewController.swift; sourceTree = "<group>"; };
+		A6095F2425904A3300B46AAE /* FavoriteAnimalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteAnimalViewController.swift; sourceTree = "<group>"; };
+		A6095F2925904BF400B46AAE /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		A685180A2590824E001BB8CC /* PsychologicalTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychologicalTestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,11 @@
 			children = (
 				A6095F052590418B00B46AAE /* AppDelegate.swift */,
 				A6095F072590418B00B46AAE /* SceneDelegate.swift */,
-				A6095F092590418B00B46AAE /* ViewController.swift */,
+				A6095F212590457900B46AAE /* SelectAnimalViewController.swift */,
 				A6095F0B2590418B00B46AAE /* Main.storyboard */,
+				A6095F2425904A3300B46AAE /* FavoriteAnimalViewController.swift */,
+				A685180A2590824E001BB8CC /* PsychologicalTestViewController.swift */,
+				A6095F2925904BF400B46AAE /* Animal.swift */,
 				A6095F0E2590418C00B46AAE /* Assets.xcassets */,
 				A6095F102590418C00B46AAE /* LaunchScreen.storyboard */,
 				A6095F132590418C00B46AAE /* Info.plist */,
@@ -137,9 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6095F0A2590418B00B46AAE /* ViewController.swift in Sources */,
+				A685180B2590824E001BB8CC /* PsychologicalTestViewController.swift in Sources */,
 				A6095F062590418B00B46AAE /* AppDelegate.swift in Sources */,
+				A6095F222590457A00B46AAE /* SelectAnimalViewController.swift in Sources */,
 				A6095F082590418B00B46AAE /* SceneDelegate.swift in Sources */,
+				A6095F2525904A3300B46AAE /* FavoriteAnimalViewController.swift in Sources */,
+				A6095F2A25904BF400B46AAE /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
