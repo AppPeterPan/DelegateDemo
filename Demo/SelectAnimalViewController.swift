@@ -9,13 +9,13 @@ import UIKit
 
     
 
-protocol SelectAnimalViewControllerDelegate {
+protocol SelectAnimalViewControllerDelegate: AnyObject {
     func selectAnimalViewController(_ controller: SelectAnimalViewController, didSelect animal: Animal)
 }
 
 class SelectAnimalViewController: UIViewController {
     
-    var delegate: SelectAnimalViewControllerDelegate?
+    weak var delegate: SelectAnimalViewControllerDelegate?
 
     override func viewDidLoad() {
         super.viewDidLoad()
